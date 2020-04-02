@@ -8,15 +8,23 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "cdk:synth": "cdk synth",
+    "cdk:deploy": "cdk deploy",
+    "cdk:destroy": "cdk destroy"
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.31.0",
+    "@aws-cdk/aws-apigateway": "1.31.0",
+    "@aws-cdk/aws-dynamodb": "1.31.0",
+    "@aws-cdk/aws-lambda": "1.31.0",
+    "@aws-cdk/aws-lambda-event-sources": "1.31.0",
+    "@aws-cdk/aws-sqs": "1.31.0",
     "@types/jest": "24.9.1",
     "@types/node": "10.17.18",
+    "aws-cdk": "1.31.0",
     "jest": "24.9.0",
     "ts-jest": "24.3.0",
-    "aws-cdk": "1.31.0",
     "ts-node": "8.8.1",
     "typescript": "3.7.5"
   },
